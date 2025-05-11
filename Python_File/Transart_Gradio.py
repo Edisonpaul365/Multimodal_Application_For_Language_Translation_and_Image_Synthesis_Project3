@@ -32,7 +32,7 @@ if api_key is None:
 headers = {"Authorization": f"Bearer {api_key}"}
 
 # Define the API URL for image generation (replace with actual model URL)
-API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4"  # Updated model URL
+API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4" 
 
 # Query Hugging Face API to generate image with error handling
 def query(payload):
